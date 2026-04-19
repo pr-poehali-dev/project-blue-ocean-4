@@ -29,9 +29,9 @@ export default function HeroContent() {
           <button className="px-8 py-3 rounded-full bg-transparent border border-white/30 text-white font-normal text-xs transition-all duration-200 hover:bg-white/10 hover:border-white/50 cursor-pointer">
             Все лекции
           </button>
-          <button className="px-8 py-3 rounded-full bg-white text-black font-normal text-xs transition-all duration-200 hover:bg-white/90 cursor-pointer">
-            Начать учиться
-          </button>
+          <a href="/styles" className="px-8 py-3 rounded-full bg-white text-black font-normal text-xs transition-all duration-200 hover:bg-white/90 cursor-pointer">
+            Функциональные стили
+          </a>
         </div>
       </div>
     </main>
