@@ -94,6 +94,14 @@ export default function Styles() {
               </div>
             ))}
           </div>
+          <div className="mt-6 flex gap-4">
+            <a href="/" className="px-8 py-3 rounded-full bg-transparent border border-white/30 text-white font-normal text-xs transition-all duration-200 hover:bg-white/10 hover:border-white/50">
+              На главную
+            </a>
+            <a href="/lexics" className="px-8 py-3 rounded-full bg-white text-black font-normal text-xs transition-all duration-200 hover:bg-white/90">
+              Ограниченная лексика →
+            </a>
+          </div>
         </div>
       </div>
     </ShaderBackground>
