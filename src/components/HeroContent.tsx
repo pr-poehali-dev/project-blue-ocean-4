@@ -9,20 +9,19 @@ export default function HeroContent() {
           }}
         >
           <div className="absolute top-0 left-1 right-1 h-px bg-gradient-to-r from-transparent via-white/20 to-transparent rounded-full" />
-          <span className="text-white/90 text-xs font-light relative z-10">Дополнительные материалы для студентов</span>
+          <span className="text-white/90 text-xs font-light relative z-10">Культура речи — дополнительные материалы</span>
         </div>
 
         {/* Main Heading */}
         <h1 className="text-5xl md:text-6xl md:leading-16 tracking-tight font-light text-white mb-4">
-          <span className="font-medium italic">Учись</span> глубже
+          <span className="font-medium italic">Культура</span> речи
           <br />
-          <span className="font-light tracking-tight text-white">вместе с нами</span>
+          <span className="font-light tracking-tight text-white">для студентов</span>
         </h1>
 
         {/* Description */}
         <p className="text-xs font-light text-white/70 mb-4 leading-relaxed">
-          Платформа с дополнительными лекциями, конспектами и практическими материалами.
-          Всё необходимое для успешной учёбы — в одном месте.
+          Культура речи — это умение адекватно, эффективно и этично коммуницировать в разных ситуациях. Коммуникативный аспект связан с выбором стиля, лексики и точности, чтобы сообщение соответствовало адресату и цели.
         </p>
 
         {/* Buttons */}
